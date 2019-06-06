@@ -1,0 +1,88 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+/* General Content */
+
+body {
+  background-color: #ffeed8; /* EDIT ME: page background color */
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  width: 700px;
+  margin: auto;
+  color: #444;
+}
+
+h1, h2 {
+  font-family: "Merriweather", serif;
+  clear: both; /* Puts lists on new line */
+}
+
+img {
+  margin:22px 10px 10px 0px;
+  float: left;
+}
+
+/* Navbar */
+
+ul.nav  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.nav li {
+  float: left;
+  text-align: center;
+}
+
+ul.nav a:link, ul.nav a:visited {
+  display: block;
+  width: 330px;
+  color: white;
+  background-color: #aa0000; /* EDIT ME: button initial color */
+  padding: 3px;
+  text-decoration: none;
+}
+
+ul.nav a:hover, ul.nav a:active {
+  background-color: red;  /* EDIT ME: button hover color */
+}
+
+/* Tables */
+
+table td {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 15px;
+}
+
+/* Facts */
+button {
+  margin-left: 25px;
+  border-radius: 6px;
+  font-size: 28px;
+  color: #4e4e55;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #ddd;
+  border: 3px solid #555;
+  height: 60px;
+  width: 200px;
+}
+
+button:hover{
+  opacity: .75;
+}
+
+#facts{
+  position: relative;
+  top: 30px;
+  left: 25px;
+  font-family: "Merriweather", serif;
+  font-size: 50px;
+  color: #aa0000;
+}
