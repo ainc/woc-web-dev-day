@@ -5,17 +5,17 @@
 /* General Content */
 
 body {
-  background-color: #ffeed8; /* EDIT ME: page background color */
+  background-color: #e2e2e2; /* EDIT ME: page background color */
   font-family: "Open Sans", sans-serif;
   padding: 5px 25px;
   font-size: 18px;
   width: 700px;
   margin: auto;
-  color: #444;
+  color: #444444;
 }
 
 h1, h2 {
-  font-family: "Merriweather", serif;
+  font-family: "Exo", serif;
   clear: both; /* Puts lists on new line */
 }
 
@@ -42,13 +42,13 @@ ul.nav a:link, ul.nav a:visited {
   display: block;
   width: 330px;
   color: white;
-  background-color: #aa0000; /* EDIT ME: button initial color */
+  background-color: #c12029; /* EDIT ME: button initial color */
   padding: 3px;
   text-decoration: none;
 }
 
 ul.nav a:hover, ul.nav a:active {
-  background-color: red;  /* EDIT ME: button hover color */
+  background-color: #d13039;  /* EDIT ME: button hover color */
 }
 
 /* Tables */
@@ -68,8 +68,8 @@ button {
   color: #4e4e55;
   text-decoration: none;
   cursor: pointer;
-  background-color: #ddd;
-  border: 3px solid #555;
+  background-color: #dddddd;
+  border: 3px solid #555555;
   height: 60px;
   width: 200px;
 }
